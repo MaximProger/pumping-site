@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:og="http://ogp.me/ns#" lang="<?=LANGUAGE_ID;?>">
+<head xmlns:og="http://ogp.me/ns#">
+	<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<meta charset="UTF-8">
+	<title>Your website</title>
+	<!-- Style -->
+	
+	<link rel="stylesheet" href="css/include/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/include/animate.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<!-- Scripts -->
+	<script src="js/include/jquery.min.js"></script>
+	<script src="js/include/scrolloverflow.min.js"></script>
+	<script src="js/include/jquery.fullPage.min.js"></script>
+	<script src="js/include/wow.min.js"></script>
+	<script src="js/_custom.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<link rel="icon" type="image/png" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon-precomposed" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?=SITE_TEMPLATE_PATH?>/images/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.ru/">
+    <meta property="og:title" content="Your website">
+    <meta property="og:description" content="<?$APPLICATION->ShowProperty('description');?>">
+    <meta property="og:image" content="https://www.yourwebsite.ru/logo.png">
+</head>
+<body>
+
+<header class="header" id="header">
+	<div class="container container--fluid">
+		<div class="header__inner">
+			<div class="header__logo">
+			</div>
+			<div class="header__menu">
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<section class="intro" id="intro">
+	<div class="container">
+		<div class="intro__wrapper">
+			<div class="intro__content">
+				<h1 class="intro__title">
+					Сайт на прокачку
+				</h1>
+				<button class="btn btn--intro">
+					Прокачать сайт
+				</button>
+				<div class="intro__sub__info">
+					5 дней и ночей, которые<br>
+					 изменять <span>ваш онлайн</span>
+				</div>
+			</div>
+			<div class="intro__photos">
+				<!-- <img class="intro__img intro__img--2" src="" alt="Img">
+				<img class="intro__img intro__img--3" src="" alt="Img">
+				<img class="intro__img intro__img--4" src="" alt="Img"> -->
+				<!-- <div class="intro__img intro__img--1"></div>
+				<div class="intro__img intro__img--2"></div>
+				<div class="intro__img intro__img--3"></div>
+				<div class="intro__img intro__img--4"></div> -->
+			</div>
+		</div>
+	</div>
+	<img class="intro__img intro__img--1" src="img/banner--proto.png" alt="Intro Bg">
+	<img class="intro__img intro__img--3" src="img/banner--kvint.png" alt="Kvint">
+	<img class="intro__img intro__img--2" src="img/banner--delta.png" alt="Delta"> 
+	<img class="intro__img intro__img--4" src="img/banner--jerusalem.png" alt="Jerusalem">
+</section>
+
+<footer class="footer">
+	<div class="container container--fluid">
+		<div class="footer__inner">
+		<div>
+			Web<br>
+			Studio
+		</div>
+		<div class="footer__info">
+			<p class="footer__phone">8 (495) 150-27-48</p>
+			<div class="footer__copyright">© 2014-2020</div>
+		</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
