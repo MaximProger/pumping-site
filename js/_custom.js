@@ -130,11 +130,20 @@ $(document).ready(function () {
     });
 
     function checkScroll(scrollOffset) {
+
+        if (scrollOffset >= 250) {
+            $('.footer').addClass('active');
+        } else {
+            $('.footer').removeClass('active');
+        }
         
         if (scrollOffset >= introH) {
-            header.addClass("fixed");
+            $('.header__logo').addClass('active');
+            $('.header__menu').addClass('active');
+
         } else {
-            header.removeClass("fixed");
+            $('.header__logo').removeClass('active');
+            $('.header__menu').removeClass('active');
         }
     }
 
